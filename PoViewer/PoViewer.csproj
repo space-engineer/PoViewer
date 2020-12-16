@@ -46,12 +46,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\Helpers\IO\Input.cs" />
+    <Compile Include="Classes\Helpers\IO\InputFile.cs" />
+    <Compile Include="Classes\Parser\Parser.cs" />
+    <Compile Include="Classes\Parser\Po\PoData.cs" />
+    <Compile Include="Classes\Parser\Po\PoParser.cs" />
+    <Compile Include="Classes\UI\TreeView\TreeView.cs" />
+    <Compile Include="Classes\Viewer\Viewer.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Interfaces\IPoFile.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -79,5 +87,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
