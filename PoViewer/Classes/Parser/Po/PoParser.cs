@@ -47,7 +47,6 @@ namespace PoViewer.Classes.Parser.Po
                             tmpContainer.Add(line);
                         }
                             
-
                         if (tmpContainer.Count == 3)
                         {
                             tmpDataContainer.id = _poData.data.Count();

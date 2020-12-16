@@ -52,7 +52,6 @@
     <Compile Include="Classes\Parser\Po\PoData.cs" />
     <Compile Include="Classes\Parser\Po\PoParser.cs" />
     <Compile Include="Classes\UI\TreeView\TreeView.cs" />
-    <Compile Include="Classes\Viewer\Viewer.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

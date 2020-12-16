@@ -38,12 +38,14 @@ namespace PoViewer.Classes.UI.TreeView
             tv.ExpandAll();
             tv.SelectedNode = null;
         }
-        private TreeNode getLastNode(TreeNode subroot)
+        private TreeNode getLastNode(TreeNode subRoot)
         {
-            if (subroot.Nodes.Count == 0)
-                return subroot;
-
-            return getLastNode(subroot.Nodes[subroot.Nodes.Count - 1]);
+            if (subRoot.Nodes.Count == 0)
+            {
+                return subRoot;
+            }
+                
+            return getLastNode(subRoot.Nodes[subRoot.Nodes.Count - 1]);
         }
     }
 }
